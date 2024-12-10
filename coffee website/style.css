@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding-left: 100px;
+    font-size: 27px;
+    color: white;
+
+}
+h1 span{
+    color: #213;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    background-color: sienna;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    font-family: arial;
+    padding-right: 20px;
+   
+}
+
+.img{
+    height: 100vh;
+    width: 100%;
+   background-image: url(./images/coffee-5498486_1280.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+.text {
+    
+    position: relative;
+    display: flex;
+    padding: 80px 80px;
+    height: 52vh;
+}
+.left h1 {
+    color: #213547;
+    font-size: 49px;
+}
+p{
+    font-size: 25px;
+}
+.left span {
+    color: rgb(136, 84, 16);
+}
+button {
+    display: inline-block;
+    color: #fff;
+    padding: 20px 40px;
+    background:  sienna;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: #213547;
+}
+
+#apropos{
+    padding: 12px;
+}
+.content{
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    text-align: center;
+    width: 100%;
+    
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: sienna;
+}
+
+
+
+  
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .gallery-item {
+    width: calc(33.333% - 15px);
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .close:hover {
+    color: #ff0000;
+  }
+  
+
+
+
+
+
+
+.temoignage{
+    padding: 50px 0px 100px;
+}
+.name{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.Glri{
+    
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gli{
+        height: auto;
+        width: 400px;
+        margin: 15px;
+        padding: 5px;
+        align-items: center;
+}
+.gli img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#contact{
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid sienna;
+    padding-bottom: 20px;
+}
+
+form{
+    margin: 60px 0 20px 0;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #213547;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: sienna;
+    border-style: none;
+    border-radius: 3px;
+    
+}
+.button-3:hover{
+    color: #fff;
+    background-color: #444;
+}
+
+footer{
+    height: 260px;
+    background-color: sienna;
+}
+footer h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 25px;
+    color: rgb(34, 31, 31);
+}
+
+
+
+
+
+
+
+
+
+
